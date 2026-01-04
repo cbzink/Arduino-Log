@@ -399,9 +399,6 @@ private:
                 case LOG_LEVEL_NOTICE:
                     writeLog(LOG_COLOR_GREEN);
                     break;
-                case LOG_LEVEL_INFO:
-                    writeLog(LOG_COLOR_BOLD_WHITE);
-                    break;
                 case LOG_LEVEL_VERBOSE:
                     writeLog(LOG_COLOR_BLACK);
                 default:
